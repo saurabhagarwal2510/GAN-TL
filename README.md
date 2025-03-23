@@ -70,7 +70,7 @@ Based on the Wine Quality Dataset, this version is augmented to meet specific cr
 [Modified Wine Quality Dataset](Modified_Wine_Dataset.csv)
 
 ## Usage
-Each dataset can be used to replicate results or train new machine learning models, as described in our research. For detailed analysis and usage, refer to the scripts available in this repository.
+Each dataset can be used to replicate results or train new learning models, as described in our research. For detailed analysis and usage, refer to the scripts available in this repository.
 Due to confidentiality and ongoing research activities, certain detailed internal implementations and hyperparameter tuning strategies employed in our published paper, "Enhancing Transfer Learning through GAN-Based Domain-Adaptive Augmentation," are not explicitly disclosed within this publicly available codebase.
 We encourage researchers and practitioners aiming for precise replication of our results to:
 1) Refer closely to the descriptions provided in our paper for deeper insights.
