@@ -49,7 +49,13 @@ This synthetic dataset was generated using a Generative Adversarial Network (GAN
 [Updated Dataset C](updated_dataset_c.csv)
 
 ### 3. Modified Wine Quality Dataset
+Modifications Applied:
 
+Missing Value Handling: Missing numerical values were filled using the column-wise mean (fillna(dataset.mean())).
+
+Feature Selection: Categorical features such as ocean_proximity were excluded to maintain numerical uniformity.
+
+Scaling: Features were standardized using StandardScaler.
 #### Description
 Based on the Wine Quality Dataset, this version is augmented to meet specific criteria for classification tasks, including introducing synthetic features.
 
