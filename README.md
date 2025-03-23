@@ -34,7 +34,11 @@ This dataset is derived from the well-known California Housing dataset from the 
 [Modified California Housing Prices Dataset](Modified_California_Housing.csv)
 
 ### 2. Updated Dataset C
+Dataset Generation Method:
 
+GAN-based Synthesis: Dataset C was artificially generated using a carefully tuned Deep Convolutional GAN (DCGAN) architecture trained on benchmark datasets. This synthetic dataset was explicitly created to evaluate the robustness of domain adaptation models on unseen domain distributions.
+
+Label Generation: Labels for this synthetic dataset were generated using randomized sampling to simulate a realistic multi-class classification scenario.
 #### Description
 This synthetic dataset was generated using a Generative Adversarial Network (GAN). It's designed for classification tasks, with features generated to mimic complex, real-world data patterns.
 
