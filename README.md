@@ -5,7 +5,13 @@ This repository contains several datasets used in our research paper titled "GAN
 ## Datasets Overview
 
 ### 1. Modified California Housing Prices Dataset
+Modifications Applied:
 
+Feature Scaling: Features were standardized using the StandardScaler method in scikit-learn, transforming each feature to zero mean and unit variance.
+
+Data Splitting: The dataset was split into training and testing sets using stratified sampling (train_test_split) to ensure balanced representation across classes.
+
+GAN-Augmented Data: Synthetic data points were generated using a Generative Adversarial Network (GAN). GAN-generated samples closely mimic the real dataset's distribution, thereby reducing the domain gap and enhancing model generalization.
 #### Description
 This dataset is derived from the well-known California Housing dataset from the 1990 census. It has been modified to introduce missing values to test machine learning algorithms' robustness in handling incomplete datasets.
 
