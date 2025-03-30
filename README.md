@@ -1,6 +1,5 @@
-# Datasets Repository for GAN-TL Domain-Adaptive Augmentation for Enhanced Transfer Learning
-
-This repository contains several datasets used in our research paper titled "GAN-TL Domain-Adaptive Augmentation for Enhanced Transfer Learning". Each dataset is tailored for specific types of machine learning tasks, including regression, classification, and testing robustness against incomplete data.
+# Datasets Repository for Enhancing Transfer Learning through GAN-Based Domain-Adaptive Augmentation
+This repository contains several datasets used in our research paper titled "Enhancing Transfer Learning through GAN-Based Domain-Adaptive Augmentation". Each dataset is tailored for specific types of machine learning tasks, including regression, classification, and testing robustness against incomplete data.
 
 ## Datasets Overview
 
@@ -77,4 +76,4 @@ We encourage researchers and practitioners aiming for precise replication of our
 2) Conduct rigorous hyperparameter tuning inspired by our outlined methods.
 3) Explore additional domain-specific augmentation and GAN configurations.
 ## Citation
-If you use these datasets, please cite our paper:
+If you use these datasets, please cite our paper: Enhancing Transfer Learning through GAN-Based Domain-Adaptive Augmentation
